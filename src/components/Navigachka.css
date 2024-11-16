@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Imperial+Script&family=Poppins:wght@300;400;500;600;700&display=swap');
+
+h2 {
+     font-family: "Imperial Script", cursive;
+     font-weight: 400;
+     color: #D4A017;
+     font-size: 36px;
+     margin-left: 20px;
+     margin-top: 5px;
+}
+nav {
+     width: 100%;
+     background-color: rgba(0, 0, 0, 0.45);
+     display: flex;
+     position: fixed;
+     height: 55px;
+     justify-content: space-between;
+}
+ul {
+     display: flex;
+     flex-direction: row;
+     margin-left: 20px;
+     margin-top: 14px;
+}
+li {
+     list-style-type: none;
+     margin-right: 27px;
+}
+.link {
+     text-decoration: none;
+     color: #F7F1E3;
+     font-family: "Poppins", sans-serif;
+     font-weight: 600;
+     font-size: 20px;
+}
+input {
+     width: 220px;
+     height: 35px;
+     border-radius: 5px;
+     background-color: #251A13;
+     margin-top: 12px;
+     color: #F7F1E3;
+     font-family: "Poppins", sans-serif;
+     font-weight: 600;
+     font-size: 16px;
+     padding-left: 5px;
+     margin-right: 10px;
+}

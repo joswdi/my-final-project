@@ -1,0 +1,21 @@
+.home {
+  background-color: #6D071A;
+  padding-bottom: 55px;
+}
+.logo_background {
+  background-image: url(../images/header-background.png);
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+h1 {
+  font-family: "Imperial Script", serif;
+  font-weight: 400;
+  color: #D4A017;
+  text-shadow: 0px 4px 30px rgb(226, 169, 47);
+  font-size: 258px;
+  margin-bottom: 150px;
+}

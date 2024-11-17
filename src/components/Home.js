@@ -4,7 +4,7 @@ import MainCard from './MainCard'
 
 const Home = () => {
   return (
-    <div className='home'>
+    <div className='background'>
       <div className='logo_background'>
         <h1>L'Ambiente</h1>
       </div>

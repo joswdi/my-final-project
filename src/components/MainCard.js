@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 
 const MainCard = () => {
   return (
-    <div className='main_card'>
+    <div className='card'>
      <h3>Search favorite cocktails in our site by many filters</h3>
      <p className='main_text'>Open the door to a world of sophistication, where every element is thought out to the smallest detail. L'Ambiente invites you to enjoy a unique atmosphere that combines Italian elegance with modern style.
      <br/>

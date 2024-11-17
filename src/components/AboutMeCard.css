@@ -1,0 +1,11 @@
+.aboutMe_heading {
+     margin-left: 500px;
+}
+span {
+     font-weight: 600;
+}
+.aboutMe_link {
+     text-decoration: none;
+     color: #B50303;
+     font-size: 24px;
+}

@@ -1,6 +1,7 @@
 .background {
   background-color: #6D071A;
   padding-bottom: 55px;
+  width: 100%;
 }
 .logo_background {
   background-image: url(../images/header-background.png);

@@ -1,6 +1,5 @@
 import React from 'react'
 import './MainCard.css'
-import { Link } from 'react-router-dom'
 
 const MainCard = () => {
   return (
@@ -20,7 +19,7 @@ const MainCard = () => {
      L'Ambiente is not just a bar, it is an atmosphere that you want to experience again and again.
      <br/>
      Visit us and feel the magic of every moment!</p>
-     <Link className='button_link' to="/categories">Go to categories</Link>
+     <button className='button_link'><a href='#cocktail_search'>Go to search</a></button>
     </div>
   )
 }

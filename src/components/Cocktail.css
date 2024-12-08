@@ -1,0 +1,75 @@
+.container {
+    justify-content: center;
+    text-align: center;
+}
+
+.input {
+    background: none;
+    border: none;
+    outline: none;
+    max-width: 190px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 9999px;
+    box-shadow: inset 2px 5px 10px rgb(5, 5, 5);
+    color: black;
+  }       
+
+.cocktail-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.cocktail-card {
+    background-color: #7E172B;
+    color: white;
+    border-radius: 12px;
+    padding: 16px;
+    width: 200px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.cocktail-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.cocktail-card h3 {
+    margin: 12px 0 8px;
+}
+
+.cocktail-card p {
+    margin: 8px 0;
+}
+
+.cocktail-card .category,
+.cocktail-card .alcoholic {
+    display: inline-block;
+    padding: 4px 8px;
+    background-color: #FFC107;
+    color: #7E172B;
+    border-radius: 4px;
+    margin-top: 8px;
+}
+
+.desc {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.yellow {
+    color: #D4A017;
+}
+
+.pagination {
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 10px;
+}
